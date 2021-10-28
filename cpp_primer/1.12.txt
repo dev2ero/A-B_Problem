@@ -1,0 +1,2 @@
+get the sum from range [-100, 100].
+the sum reachs 0 at last.

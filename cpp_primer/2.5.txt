@@ -1,0 +1,4 @@
+(a) char, wide char, c string,  c string contains wide chars
+(b) integer, unsigned integer, long, unsigned long, octal integer, hexadecimal integer
+(c) double, float, long double
+(d) integer, unsigned integer, double, double

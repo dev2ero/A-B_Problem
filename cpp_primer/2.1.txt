@@ -1,0 +1,3 @@
+Differ in memory size.
+Whether using a single bit to represent positive/negative.
+Differ in memory size.
