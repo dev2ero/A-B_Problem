@@ -1,0 +1,4 @@
+(a) declaration should not be in the assigning expression.
+(b) narrowing conversion from ‘double’ to ‘int’.
+(c) can't continuous assignment.
+(d) narrowing conversion from ‘double’ to ‘int’.
