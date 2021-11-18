@@ -1,0 +1,3 @@
+(a) ip: int* | i: int | r: int
+(b) i: int | ip = NULL: int*
+(c) ip: int* | ip2: int

@@ -1,0 +1,3 @@
+illegal:
+(a): pointer type are not matched.
+(b): '&' is missing.

@@ -1,0 +1,1 @@
+void* can store a pure address while long* and int* are not matched

@@ -1,0 +1,1 @@
+pointer stores a address while reference is a alias who stores a value
