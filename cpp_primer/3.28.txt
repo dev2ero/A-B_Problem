@@ -1,0 +1,2 @@
+string [] : "" where ever they are
+int [] : 0 if in bss, random if in stack
