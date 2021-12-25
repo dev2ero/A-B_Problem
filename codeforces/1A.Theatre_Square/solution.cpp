@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 int main() {
     long long n, m, a;
     std::cin >> n >> m >> a;
