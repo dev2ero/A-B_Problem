@@ -4,16 +4,16 @@
 using namespace std;
 
 int main() {
-	unsigned int n, m;
+	int n, m;
 	cin >> n >> m;
 	
-	vector<unsigned int> v(m);
+	vector<int> v(m);
 	for(int i = 0; i < m; ++i) cin >> v[i];
 
-	unsigned int sum = 0;
-	unsigned int cur = 1;
-	for(auto next : v) {
-		sum += (next - cur) % n;
+	long long sum = 0;
+	int cur = 1;
+	for(int next : v) {
+		sum += (n + (next - cur)) % n;  // for positive modulo in c++
 		cur = next;
 	}
 
