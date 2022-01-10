@@ -2,17 +2,38 @@
 #include <vector>
 #include <cmath>
 
-#define LIMIT 1000000
+#define LIMIT 1000010
 
 using namespace std;
 
+bool isPrime(long long n)
+{
+    int skip=0;
+    if(n<2)
+        return false;
+    else if(n==2)
+        return true;
+    long long limit=sqrt(n);
+    if(n%2==0)
+        return false;
+        for(int j=3; j<=limit; j+=2){
+            if(n%j==0)
+                return false;
+            }
+    return true;
+}
+
 int main() {
-	vector<bool> prime(LIMIT, true);
-	prime[0] = false;
-	prime[1] = false;
-	for(int i = 2; i < LIMIT; ++i)
-		if(prime[i] == true)
-			for(int j = i * i; j < LIMIT; j += i)
-				prime[j] = false;
-	for(bool b : prime) cout << b;
+	int n;
+	cin >> n;
+	long long cur;
+	while(n--) {
+		cin >> cur;
+		long long sq = sqrt(cur);
+		if(sq*sq == cur
+		  && isPrime((long long)sqrt(cur)))
+			cout << "YES" << endl;
+		else
+			cout << "NO" << endl;
+	}
 }
