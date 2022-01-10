@@ -4,16 +4,16 @@
 using namespace std;
 
 int main() {
-	int n, m;
+	unsigned int n, m;
 	cin >> n >> m;
 	
-	vector<int> v(m);
+	vector<unsigned int> v(m);
 	for(int i = 0; i < m; ++i) cin >> v[i];
 
-	int sum = 0;
-	int cur = 1;
-	for(int next : v) {
-		sum += (next - cur) % 4;
+	unsigned int sum = 0;
+	unsigned int cur = 1;
+	for(auto next : v) {
+		sum += (next - cur) % n;
 		cur = next;
 	}
 
