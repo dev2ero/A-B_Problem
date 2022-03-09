@@ -3,8 +3,10 @@
 
 using namespace std;
 
+vector<int> cur;
+
 void permutation(vector<int> arr) {
-    if(index == arr.size() - 1) {
+    if(arr.size() == 1) {
 
     }
 
