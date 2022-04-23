@@ -8,7 +8,7 @@ int main() {
     
     b = 3;
     cout << b << " : ";
-    cout << b.to_ulong() << " : ";
+    cout << b.to_ulong() << endl;
 
     b = b << 3;
     cout << b << " : ";
