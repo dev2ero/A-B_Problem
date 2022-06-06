@@ -1,3 +1,5 @@
+// 一堆物品，编号1,2,…,n，重量w1,w2,…,wn，价值v1,v2,…,vn,现在有一个包，能承受的最大重量为w，问选装哪几件物品，能带走的价值最大？
+
 #include<iostream>
 
 using namespace std;
