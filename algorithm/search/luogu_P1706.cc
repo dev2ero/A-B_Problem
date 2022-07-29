@@ -1,0 +1,1 @@
+../../luogu/P1706/solution.cc

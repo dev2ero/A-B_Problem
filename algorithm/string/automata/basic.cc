@@ -1,0 +1,1 @@
+../../../codeforces/58A.Chat_room/solution.cc
